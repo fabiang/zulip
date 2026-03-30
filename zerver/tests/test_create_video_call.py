@@ -566,7 +566,6 @@ class BigBlueButtonVideoCallTest(ZulipTestCase):
                             "name": "general > meeting",
                             "lock_settings_disable_cam": False,
                             "moderator": self.user.id,
-                            "realm_id": self.user.realm.id,
                         }
                     ),
                 ),
@@ -588,7 +587,6 @@ class BigBlueButtonVideoCallTest(ZulipTestCase):
                             "name": "general > meeting",
                             "lock_settings_disable_cam": True,
                             "moderator": self.user.id,
-                            "realm_id": self.user.realm.id,
                         }
                     ),
                 ),
